@@ -1,0 +1,15 @@
+{
+  "name": "alice-semantic-css",
+  "version": "1.0.0",
+  "description": "An override css styleshit for semantic-ui for the alice pallete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}
