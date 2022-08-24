@@ -1,0 +1,11 @@
+@import "./colors.scss";
+
+.ui.secondary.menu {
+    color: $white;
+
+    .active.item {
+        color: $white;
+        background: $secondary_active;
+    }
+
+}
