@@ -11,6 +11,8 @@
 @mixin button-primary {
     background: $primary ;
     box-shadow: none ;
+    border-bottom: 1px solid #823C5B;
+    border-radius: 4px;
     color: $white ;
     &:hover {
         background: $primary_hover ;
@@ -19,9 +21,14 @@
     }
     &:disabled {
         background: $primary_disabled ;
+        border-bottom: 1px solid transparent ;
     }
     &:focus {
         background: $primary_active ;
+    }
+    &:active {
+        box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-bottom: 1px solid transparent ;
     }
 
     &.basic {
